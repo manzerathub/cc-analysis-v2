@@ -25,3 +25,4 @@ Optional variable: `ANTHROPIC_MODEL` (defaults to `claude-opus-5-5`, matching th
 
 Product A remains untouched.
 Deployment trigger: Gemini Comparator B 1.1
+Deployment trigger after reconnect

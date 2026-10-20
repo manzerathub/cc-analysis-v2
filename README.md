@@ -9,7 +9,7 @@ A separate test deployment of the alternative TaRL research-coding methodology, 
 - It does not modify or depend on Product A.
 
 ## Required Cloudflare secret
-Create a Worker secret named `ANTHROPIC_API_KEY` containing an Anthropic API key with access to the configured model.
+Create a Worker secret named `GEMINI_API_KEY` containing an Gemini API key with access to the configured model.
 
 Optional variable: `ANTHROPIC_MODEL` (defaults to `claude-opus-5-5`, matching the supplied pilot configuration).
 
@@ -19,7 +19,7 @@ Optional variable: `ANTHROPIC_MODEL` (defaults to `claude-opus-5-5`, matching th
 3. In Cloudflare Workers & Pages, create a new Worker by importing that GitHub repository.
 4. Build command: `npm run build`
 5. Deploy command: `npx wrangler deploy`
-6. Add secret `ANTHROPIC_API_KEY` under Worker Settings > Variables and Secrets.
+6. Add secret `GEMINI_API_KEY` under Worker Settings > Variables and Secrets.
 7. Redeploy.
 8. Open `/api/health` to confirm `Comparator-B-1.0`.
 

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "core-components-comparator-b",
+  "name": "cc-analysis-v2",
   "main": "worker.js",
   "compatibility_date": "2026-10-01",
   "observability": {"enabled": true, "logs": {"enabled": true, "invocation_logs": true}},

@@ -24,3 +24,4 @@ Optional variable: `ANTHROPIC_MODEL` (defaults to `claude-opus-5-5`, matching th
 8. Open `/api/health` to confirm `Comparator-B-1.0`.
 
 Product A remains untouched.
+Deployment trigger: Gemini Comparator B 1.1

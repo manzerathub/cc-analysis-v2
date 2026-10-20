@@ -1,0 +1,403 @@
+{
+  "version": 5,
+  "programme_aliases": [
+    "Teaching at the Right Level / TaRL",
+    "targeted instruction",
+    "Catch Up / Catch-Up (Zambia), UCatchUp (Uganda)",
+    "Differentiated Learning / DL (Ghana)",
+    "remedial education / remediation / remedial classes",
+    "learning camps / accelerated learning camps",
+    "Combined Activities for Maximized Learning / CAMaL (Pratham)",
+    "grouping by ability / learning level"
+  ],
+  "not_targeted": [
+    "accelerated learning or accelerated education programmes (ALP, AEP), complementary basic education, or remedial and catch-up programmes for out-of-school children (including children in child labour). Code linkage as unrelated (or general), unless the document presents the programme as the TaRL / targeted-instruction approach"
+  ],
+  "components": [
+    {
+      "id": "CC1",
+      "name": "Focus on a streamlined set of foundational skills",
+      "level": "Pedagogical programme in the classroom",
+      "evidence_rating": "Essential",
+      "definition": "The programme focuses on a narrow set of foundational literacy and numeracy skills, and its instructional time goes to mastering them. Typical skills: for reading, letter-sound knowledge, reading words, reading a paragraph, reading a short story; for maths, number concepts and the four basic operations.\n",
+      "counts": [
+        "targeted instruction focused on foundational literacy and/or numeracy",
+        "named target skills or levels (letter, word, paragraph, story; number recognition, operations)",
+        "time dedicated to these skills"
+      ],
+      "does_not_count": [
+        "a general sector goal of \"improving learning outcomes\" with no instructional focus",
+        "foundational learning as a policy priority not tied to what is taught in the targeted programme",
+        "results-framework or DLI indicators on learning outcomes (e.g. % of P2 learners at basic proficiency); record these under CC9 as policy_priority"
+      ],
+      "score_2": "Foundational literacy/numeracy named as the focus of the targeted programme, but the skills are not specified.",
+      "score_3": "The specific skills or levels the programme targets are named (e.g. paragraph reading, two-digit subtraction).",
+      "examples": [
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "Street Child Nepal concept note: FLN for Grades 3-5; success means reaching story level in reading and mastering the four operations."
+        },
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: outcomes include reading a paragraph and performing the four basic mathematical operations."
+        },
+        {
+          "score": 2,
+          "source": "illustrative",
+          "text": "A remedial programme 'will strengthen foundational literacy and numeracy' for learners who are behind; no skills or levels are named."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "A plan aims to 'improve learning outcomes in basic education' with no targeted-instruction programme."
+        }
+      ]
+    },
+    {
+      "id": "CC2",
+      "name": "Regular assessment to identify current learning levels",
+      "level": "Pedagogical programme in the classroom",
+      "evidence_rating": "Essential",
+      "definition": "Simple assessments of each child's learning level are used at the start to place children in groups, and repeated during the programme (midline, endline, frequent formative checks) so teachers can respond and regroup. Assessment is a continuous process that drives instruction, not a one-off measurement.\n",
+      "counts": [
+        "baseline assessment of individual children used to place or group them",
+        "repeated classroom assessment during the programme (formative, midline, regrouping)",
+        "simple tools (oral, one-on-one, ASER-type) used by teachers"
+      ],
+      "does_not_count": [
+        "national or sample-based learning assessments used only for system monitoring (EGRA/EGMA, NLA, exams), unless the document says results are used to group or teach children",
+        "results-framework or DLI indicators on learning outcomes (e.g. % of P2 learners at basic proficiency); record these under CC9 as policy_priority",
+        "programme baseline/endline used only for evaluation",
+        "school-level needs assessments (about the school, not the child)"
+      ],
+      "score_2": "Child-level assessment is described, but only at baseline/endline, or its use for grouping/instruction is unclear.",
+      "score_3": "Children are assessed before instruction starts to place them by level, AND assessment is repeated during implementation (midline, regular formative checks or regrouping; frequency or tool stated).",
+      "examples": [
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: learners selected by baseline assessment, assessed regularly during lessons, regrouped, and assessed again after 40 contact hours."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Street Child Nepal concept note: baseline and endline assessments identify learners needing support; no assessment during implementation is described."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: teachers trained in formative assessment for differentiation; frequency and use for grouping not stated."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "'Assessment-driven instruction' is named as a principle of the remedial programme; no tool, timing or use is described."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "Only a national sample-based learning assessment used to monitor the system; no child-level assessment for the targeted programme."
+        }
+      ]
+    },
+    {
+      "id": "CC3",
+      "name": "Aligning instruction to current learning levels",
+      "level": "Pedagogical programme in the classroom",
+      "evidence_rating": "Essential",
+      "definition": "Children are grouped by current learning level (not grade or age), within or across classes, and instruction is pitched at each group's level. Grouping is flexible: children move as they progress. The paper's key contrast (Haryana): assessment-informed teaching that kept grade-level classes had no effect; reorganising children into level groups did.\n",
+      "counts": [
+        "grouping children by learning level or competency",
+        "instruction or activities matched to each group's level",
+        "regrouping as children progress"
+      ],
+      "does_not_count": [
+        "differentiation or learner-centred teaching with no description of grouping or level-matched instruction",
+        "remedial or catch-up named only as a label, with no description of how instruction is pitched",
+        "tracking or streaming into fixed ability classes for the whole year"
+      ],
+      "score_2": "Instruction is adapted to children's level (differentiation, remedial support for those behind), but grouping by level is not described.",
+      "score_3": "Children are grouped by learning level (not grade or age) and each group is taught at its level. Regrouping, the number of groups and level-specific activities are recorded as specifics but are not required for a 3.",
+      "examples": [
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "VVOB Uganda concept note: learners grouped by learning level rather than age or grade, with level-appropriate activities in daily sessions."
+        },
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: learners grouped by learning level rather than age or grade and regrouped using ongoing assessment."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: teachers use formative assessment to differentiate in remedial sessions, but grouping by level is not described."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "'Remedial classes (TaRL)' listed as an output; how children are grouped or taught is not described."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "TaRL listed as one of several programmes that subnational governments may choose (an option, not a commitment)."
+        }
+      ]
+    },
+    {
+      "id": "CC4",
+      "name": "Interactive instructional techniques",
+      "level": "Pedagogical programme in the classroom",
+      "evidence_rating": "Likely essential",
+      "definition": "Lessons use active methods that engage children: group activities, children leading activities, individual or paired reading, games, manipulatives, learning on the floor or outside. Learning through doing, practice and discussion rather than passive listening.\n",
+      "counts": [
+        "named interactive methods (group/pair work, games, manipulatives, child-led activities, oral activities) used in targeted-instruction sessions"
+      ],
+      "does_not_count": [
+        "generic \"learner-centred\" or \"active pedagogy\" as a sector-wide aim, not tied to targeted-instruction lessons",
+        "interactive methods in teacher training (that is CC7), not in children's lessons"
+      ],
+      "score_2": "Interactive or play-based approach stated for targeted-instruction lessons, but no specific techniques.",
+      "score_3": "Specific techniques are named for targeted-instruction lessons (e.g. games, group activities, manipulatives).",
+      "examples": [
+        {
+          "score": 3,
+          "source": "illustrative",
+          "text": "Remedial sessions use games, number cards and other manipulatives, small-group activities, and children reading aloud in pairs."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Street Child Nepal concept note: learner-centred, adaptive approaches for TaRL lessons; specific classroom techniques not described."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: peer support and active learning in remedial sessions; specific techniques not described."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "'Learner-centred pedagogy' as a sector-wide aim, not tied to targeted-instruction lessons (general evidence)."
+        }
+      ]
+    },
+    {
+      "id": "CC5",
+      "name": "A localised, low-cost, well-aligned range of instructional materials",
+      "level": "Pedagogical programme in the classroom",
+      "evidence_rating": "Likely essential",
+      "definition": "Teaching and learning materials for targeted instruction that are (a) localised: suited to the context and easy to produce locally; (b) low-cost enough for scale; (c) well-aligned with the progression of skills, the pedagogy and each other (teacher guidance matches children's practice work); and (d) a range that caters to different learning levels.\n",
+      "counts": [
+        "teacher manuals, activity books, level-specific readers or worksheets, assessment tools for the targeted programme",
+        "local language, locally produced or contextualised materials",
+        "materials explicitly for different levels"
+      ],
+      "does_not_count": [
+        "textbook or structured-pedagogy grade-level materials not linked to targeted instruction",
+        "teaching and learning materials as a generic procurement line"
+      ],
+      "score_2": "Materials for the targeted programme are described, but none or one of localised / low-cost / range-of-levels is stated.",
+      "score_3": "Materials for the targeted programme AND at least two of localised, low-cost, range across levels.",
+      "examples": [
+        {
+          "score": 3,
+          "source": "illustrative",
+          "text": "Teacher manuals and level-specific activity cards (letter, word, paragraph, story) are produced locally in the local language at low cost."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: revised remedial education guides and tools aligned with the curriculum; localisation, cost and levels not stated."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: a programme manual with interactive literacy and numeracy lessons; localisation and cost not stated."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "'Lesson plans for remedial education' listed as an output with no description."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "Grade-level structured-pedagogy textbooks, not linked to the targeted programme (general evidence)."
+        }
+      ]
+    },
+    {
+      "id": "CC6",
+      "name": "Ongoing coaching for teachers",
+      "level": "Pedagogical support",
+      "evidence_rating": "Essential",
+      "definition": "Regular follow-up support for teachers delivering targeted instruction: coaches or mentors visit, observe, give technical input and help solve problems, so teachers build the skills and keep the motivation to deliver the programme well.\n",
+      "counts": [
+        "coaching or mentoring of teachers who deliver targeted instruction, by named actors (coaches, mentors, SISOs, ZICs, CRPs, head teachers)",
+        "classroom observation with feedback; follow-up visits; communities of practice tied to the programme"
+      ],
+      "does_not_count": [
+        "inspection or compliance supervision with no instructional support",
+        "coaching of school leaders only, unless the document says it reaches teachers",
+        "coaching for a different programme (e.g. structured pedagogy) not linked to targeted instruction"
+      ],
+      "score_2": "Coaching or mentoring of teachers for the targeted programme is described (who coaches), but frequency or observation/feedback is not stated.",
+      "score_3": "Who coaches AND how often (or a stated cycle), AND the visits are academic support (observation, demonstration, feedback), not inspection or compliance checks.",
+      "examples": [
+        {
+          "score": 3,
+          "source": "illustrative",
+          "text": "Cluster mentors visit each remedial teacher every two weeks, observe a lesson and give feedback."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Street Child Nepal concept note: 150 mentors give periodic mentoring to about 1,800 teachers; number of visits not stated."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: supportive supervision by head teachers and sector mentors for remedial teaching; no visit cycle stated."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "'Support teacher coaching and mentoring systems' listed next to the remedial programme without saying it supports it."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "Coaching described only for school leaders, not for teachers delivering targeted instruction (general evidence)."
+        }
+      ]
+    },
+    {
+      "id": "CC7",
+      "name": "Practice-based training for teachers and coaches",
+      "level": "Pedagogical support",
+      "evidence_rating": "Essential",
+      "definition": "Training for teachers and coaches that (a) puts applied instructional practice before theory and (b) includes extensive hands-on practice of the routines: demonstrations, practice classes with children, role-play. Coaches often deliver a series of lessons themselves before coaching teachers.\n",
+      "counts": [
+        "training on targeted instruction for teachers and/or coaches (either group counts for the score; D008)",
+        "practice classes, demonstration lessons, role-play, micro-teaching, coaches teaching before coaching",
+        "practice classes taught by coaches or resource persons before they train or coach teachers (counts as practice-based training for coaches)"
+      ],
+      "does_not_count": [
+        "training on unrelated topics, or general in-service training not tied to targeted instruction",
+        "training of trainers / cascade training described only as a delivery channel"
+      ],
+      "score_2": "Training on targeted instruction is described (who, how long), but no practice element is stated.",
+      "score_3": "Training includes a stated practice element (practice classes, demonstrations, role-play, coaches teaching first).",
+      "record": {
+        "trained_group": "who the training is for - teachers / coaches / both / unclear"
+      },
+      "examples": [
+        {
+          "score": 3,
+          "source": "illustrative",
+          "text": "Before training teachers, resource persons teach practice classes with children for three weeks; teacher training includes demonstrations and practising activities with each other."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Street Child Nepal concept note: intensive 8-day residential TaRL training for teachers and mentors; training methods not described."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: teachers and volunteers trained on the programme before implementation; no practice element stated."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "'An in-service training curriculum incorporating TaRL' is named; who is trained, for how long and how are not described."
+        }
+      ]
+    },
+    {
+      "id": "CC8",
+      "name": "Government guidelines on integration into the school calendar",
+      "level": "Authorising environment",
+      "evidence_rating": "May be essential",
+      "definition": "Official instructions (a circular, a recommended timetable, a policy) that set time for targeted-instruction lessons as part of school instruction: dedicated hours in the daily or weekly timetable, or designated weeks/months (e.g. the first month of the year). The opposite is a mandate with no timetable change, or after-school/holiday camps outside teachers' working hours.\n",
+      "counts": [
+        "a stated time slot in the school day or week for targeted instruction (hours, periods, days)",
+        "designated weeks or terms for remediation",
+        "a circular, directive or official timetable that sets this time",
+        "a government-endorsed plan (compact, sector plan, FLN strategy) that states this time allocation"
+      ],
+      "does_not_count": [
+        "Ministry embedding or co-delivery with government with no time allocation (that is CC9)",
+        "after-school or holiday camps with no official time in the school calendar (record as non-integrated)"
+      ],
+      "score_2": "Time for targeted instruction within school hours is stated, but not by government (e.g. schools set their own schedule; a timetable set by an NGO or programme without government endorsement).",
+      "score_3": "An official guideline, policy or timetable sets a dedicated period for targeted instruction (hours per day/week, or weeks per year). A government-endorsed planning document (partnership compact, sector plan, national FLN strategy) that states this time allocation counts; a separate circular is not required. Record the hours and timing (e.g. start of the school year) as specifics.",
+      "examples": [
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "UNICEF Rwanda concept note: national policy mandates three hours per week for remedial education in the official timetable."
+        },
+        {
+          "score": 2,
+          "source": "hempel_train",
+          "text": "Building Tomorrow concept note: lessons use an hour of the school's remedial period, arranged with head teachers; no government guideline cited."
+        },
+        {
+          "score": 1,
+          "source": "illustrative",
+          "text": "Daily one-hour sessions run outside regular class hours and schools set their own schedule (not integrated)."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "The programme is 'embedded in Ministry structures' but no time is allocated (that is CC9 evidence, not CC8)."
+        }
+      ]
+    },
+    {
+      "id": "CC9",
+      "name": "Prioritisation in resourcing and in government officials' time",
+      "level": "Authorising environment",
+      "evidence_rating": "May be essential",
+      "definition": "Decision-makers prioritise targeted instruction when setting budgets, delegating responsibilities and allocating resources, and officials along the implementation chain (national, regional, district, school) treat those responsibilities as a priority in their day-to-day work.\n",
+      "counts": [
+        "budget allocated to targeted instruction (domestic or grant line), including for scale-up",
+        "named government officials or units with responsibilities for targeted instruction (planning, training, monitoring, coaching)",
+        "targeted instruction in job descriptions, monitoring routines, review meetings, DLIs",
+        "results-framework or DLI indicators on foundational learning outcomes that government must report on (cc9_kind = policy_priority). Linkage is targeted only if the indicator is tied to the targeted programme (e.g. DL learners' outcomes); otherwise general"
+      ],
+      "does_not_count": [
+        "general government ownership of the sector plan or grant, not specific to targeted instruction",
+        "scale-up listed as an option or aspiration"
+      ],
+      "score_2": "Either resources OR officials' responsibilities for targeted instruction are described.",
+      "score_3": "Both resources (budget, scale-up financing) AND officials' responsibilities for targeted instruction are described.",
+      "record": {
+        "cc9_kind": "kind of evidence (D010; recorded only, does not change the score) - resources (budget lines, domestic financing, scale-up funding) / cadre (designated officials, mentors or supervisors with targeted-instruction responsibilities, incl. review meetings they run) / policy_priority (directives, government orders, FLN mission or strategy, champions) / unclear\n"
+      },
+      "examples": [
+        {
+          "score": 3,
+          "source": "hempel_train",
+          "text": "VVOB Uganda concept note: district ownership, government steering committees, government data systems, and a path to annual government budget allocation."
+        },
+        {
+          "score": 2,
+          "source": "illustrative",
+          "text": "District officials are assigned to monitor remedial sessions; no budget is mentioned (cadre evidence only)."
+        },
+        {
+          "score": 0,
+          "source": "illustrative",
+          "text": "Scale-up of TaRL listed as an aspiration or one option for subnational governments."
+        }
+      ]
+    }
+  ]
+}
